@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  color: rgb(73, 80, 87);
+  outline: none;
+}
+
+.header {
+  background-color: #52bdda;
+  color: #ffa704;
+}
+.input {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .9rem;
+  display: block;
+  width: 100%;
+  border: 1px solid #cedad9;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: auto
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+}
+
+button.blue {
+  background-color: #05a7d4;
+  color: white
+}
+
+button.blue:hover {
+  background-color:  #04627c;
+}
+
+button.green {
+  background-color: #ffa704;
+  color: white
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  text-align: left;
+  padding: 10px
+}
+
+tr:nth-child(even) {
+  background-color: #ddd
+}
+
+.active {
+  color: #ffa704;
+  font-weight: 700;
+}
+
+.optionFont {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header {
+    padding: 1rem;
+  }
+  .container{
+    padding: 1rem;
+  }
+}
